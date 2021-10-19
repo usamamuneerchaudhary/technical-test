@@ -16,9 +16,9 @@ Don't be afraid of submitting incomplete code or code that isn't quite doing wha
 Just Document what you had hoped to achieve and your thoughts behind any unfinished code, so that we know what your plan was.
 
 ### Requirements
-- Display a list of turbine inspections
-- Each Turbine should have a number of components
-- A component can be given a grade from 1 to 5 (1 being perfect and 5 being completely broken/missing)
+- Display a list of wind turbine inspections.
+- Each wind turbine should have a number of parts.
+- Each part on a turbine can be given a grade from 1 to 5 (1 being perfect and 5 being completely broken/missing).
 - Use Laravel Models to represent the Entities in the task.
 
 ### Bonus Points
