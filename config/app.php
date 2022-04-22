@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Facade;
 
 return [
+    'pagination_count' => 5,
 
     /*
     |--------------------------------------------------------------------------
@@ -176,6 +177,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\EloquentServiceProvider::class,
 
     ],
 
