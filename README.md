@@ -71,16 +71,16 @@ composer install --ignore-platform-reqs
 
 ### Task understanding & My Implementations
 
-As per my research on what cyberhawk does & the solutions this company provides to different sectors. 
-This task mainly focuses on how the candidate showcases the turbines operations installed into a farm in the best 
-way possible.    
+As per my research on what cyberhawk does & the solutions this company provides to different sectors.
+This task mainly focuses on how the candidate showcases the turbine operations installed into a farm in the best
+way possible.
 
-My approach is yet simple for this problem. I've created a single farm page(single page as you call in WP), that 
-displays the turbines installed in the respective farm with the data associated with each turbine. Data includes the 
-type of turbine, its grade, its location, components, and uuid.  
+My approach is yet simple for this problem. I've created a single farm page(single page as you call it in WP), that
+displays the turbines installed in the respective farm with the data associated with each turbine. Data includes the
+type of turbine, its grade, its location, components, and uuid.
 
-Turbine grade is really important here as I've implemented animation for the turbine & the speed of rotation is mainly 
-based on the grade level. For instance, grade 1 means turbine has no issues at all and works at full speed. Whereas, 
+Turbine grade is really important here as I've implemented animation for the turbine & the speed of rotation is mainly
+based on the grade level. For instance, grade 1 means the turbine has no issues at all and works at full speed. Whereas,
 grade 5 means, turbine needs some fixes hence moving dead-slow.
 
 ### DB Architecture
@@ -120,14 +120,14 @@ Inside of these controllers, we can reduce `try|catch` blocks to reduce number o
 
 #### Frontend
 
-For the frontend, I rather preferred quick solution to design my page. `tailwindcss` is being used. I've used a 
-combination of `tailwindui` components to improve my application's UI/UX. 
+For the frontend, I preferred a quick solution to design my page. `tailwindcss` is being used. I've used a
+combination of `tailwindui` components to improve my application's UI/UX.
 Simple CSS animation used for turbines.
 
 #### Final Thoughts
 
 Overall, I really enjoyed working on this unique and interesting technical test. To properly implement the use-case of 
-farm and turbines in the application code was seemed a bit confusing at first. But as the development grows and 
+farm and turbines in the application code seemed a bit confusing at first. But as the development grows and 
 understanding being developed of what cyberhawk does, this turned out to be extremely interesting to myself. 
 
 Hope to hear from you soon!
