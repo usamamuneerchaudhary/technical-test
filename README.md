@@ -79,6 +79,9 @@ My approach is yet simple for this problem. I've created a single farm page(sing
 displays the turbines installed in the respective farm with the data associated with each turbine. Data includes the
 type of turbine, its grade, its location, components, and uuid.
 
+![til](test-rec-cyberhawk-usama.gif)
+
+
 Turbine grade is really important here as I've implemented animation for the turbine & the speed of rotation is mainly
 based on the grade level. For instance, grade 1 means the turbine has no issues at all and works at full speed. Whereas,
 grade 5 means, turbine needs some fixes hence moving dead-slow.
