@@ -98,17 +98,17 @@ Few things to note here while I was finalizing the fields:
 
 ![Project ERD](erd.png?raw=true "ERD")
 
-#### Application Data Setup
+### Application Data Setup
 
 Seeders & Factories are being set up for each model to arrange dummy data which will help in testing.
 To use seeders, run `php artisan migrate:fresh --seed`
 
-#### Unit Tests
+### Unit Tests
 
 Some basic unit tests performed which mainly focuses on end-to-end application layout on the browser. 
 To run unit tests, run `/vendor/bin/phpunit`
 
-#### API Authentication & Endpoints
+### API Authentication & Endpoints
 
 Since Laravel Sanctum comes in default with all Laravel apps now. I've used sanctum to build a simple API that'll be 
 used if we need to switch over our application to some SPA. These endpoints are just for the demonstration purposes. 
@@ -118,13 +118,13 @@ Furthermore, I've also created a couple of endpoints for creating and listing tu
 principle being followed here to design these controllers. 
 Inside of these controllers, we can reduce `try|catch` blocks to reduce number of lines as well.
 
-#### Frontend
+### Frontend
 
 For the frontend, I preferred a quick solution to design my page. `tailwindcss` is being used. I've used a
 combination of `tailwindui` components to improve my application's UI/UX.
 Simple CSS animation used for turbines.
 
-#### Final Thoughts
+### Final Thoughts
 
 Overall, I really enjoyed working on this unique and interesting technical test. To properly implement the use-case of 
 farm and turbines in the application code seemed a bit confusing at first. But as the development grows and 
