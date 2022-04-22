@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\API\Auth\LoginController;
+use App\Http\Controllers\API\Turbine\CreateTurbinesController;
+use App\Http\Controllers\API\Turbine\TurbinesController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +17,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::post('/auth/login', [LoginController::class, 'login']);
+
+Route::group(['middleware' => ['auth:sanctum']], function () {
+    Route::group(['prefix' => 'turbines'], function () {
+        Route::get('/', [TurbinesController::class, 'index']);
+        Route::post('/', [CreateTurbinesController::class, 'create']);
+    });
+    Route::post('/auth/logout', [LoginController::class, 'logout']);
 });
+
